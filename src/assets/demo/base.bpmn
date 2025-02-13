@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" id="Definitions_05dkzg5" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="18.1.1">
+  <bpmn:collaboration id="Collaboration_0ion0p8">
+    <bpmn:participant id="Participant_1yernty" name="newWorkflow" processRef="Process_1ym6t5g" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_1ym6t5g" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_1ywb2vw">
+      <bpmn:lane id="Lane_0qe5roj" name="Demandante">
+        <bpmn:flowNodeRef>StartEvent_1qwbotu</bpmn:flowNodeRef>
+      </bpmn:lane>      
+    </bpmn:laneSet>
+    <bpmn:startEvent id="StartEvent_1qwbotu" name="Inicio" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_0ion0p8">
+      <bpmndi:BPMNShape id="Participant_1yernty_di" bpmnElement="Participant_1yernty" isHorizontal="true">
+        <dc:Bounds x="156" y="62" width="600" height="125" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_0qe5roj_di" bpmnElement="Lane_0qe5roj" isHorizontal="true">
+        <dc:Bounds x="186" y="62" width="570" height="125" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>      
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1qwbotu">
+        <dc:Bounds x="262" y="102" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="267" y="145" width="26" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
